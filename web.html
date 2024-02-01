@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata 22BCE2415</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
+
         header {
             background-color: #007bff;
             color: white;
             padding: 20px;
             text-align: center;
+            margin-bottom: 15px;
         }
+
         nav {
             background-color: #f8f9fa;
             padding: 10px;
+            margin-bottom: 15px;
         }
+
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
         }
+
         nav ul li {
             display: inline;
             margin-right: 10px;
             position: relative;
         }
+
         nav ul li a {
             color: #333;
             text-decoration: none;
+            transition: color 0.3s ease;
         }
+
         nav ul li a:hover {
             color: #007bff;
         }
+
         nav ul li ul {
             display: none;
             position: absolute;
@@ -46,43 +57,93 @@
             padding: 10px;
             box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
         }
+
         nav ul li:hover ul {
             display: block;
         }
+
         nav ul li ul li {
             display: block;
             margin: 0;
             padding: 0;
         }
+
         nav ul li ul li a {
             display: block;
             padding: 5px 10px;
         }
-        main {
-            padding: 20px;
-        }
+
         section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 10px;
+            border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             transition: box-shadow 0.3s ease;
         }
+
+        section:hover {
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            transition: font-size 0.3s ease;
+        }
+
+        header h4 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            transition: font-size 0.3s ease;
+        }
+
+        header:hover h1 {
+            font-size: 30px;
+        }
+
+        header:hover h4 {
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
         h2 {
             margin-bottom: 10px;
             color: #007bff;
         }
+
         h3 {
             color: #007bff;
         }
+
         ul {
             list-style-type: none;
             padding: 0;
         }
+
         li {
             margin-bottom: 10px;
         }
+
         footer {
             background-color: #007bff;
             color: white;
@@ -91,6 +152,7 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Harsh Patil</h1>
@@ -128,12 +190,19 @@
                 <li>
                     <h3>Web Programmer</h3>
                     <p>Microsoft, 6 Months</p>
-                    <p>I had an oppurtunity to work as an intern in the Microsoft as a web developer. I worked for 6 Months on a project and was a part of amazing team.</p>
+                    <p>
+                        I had an opportunity to work as an intern in Microsoft as a
+                        web developer. I worked for 6 Months on a project and was a part
+                        of an amazing team.
+                    </p>
                 </li>
                 <li>
                     <h3>UI/UX Designer</h3>
                     <p>Delloite, 2 Months</p>
-                    <p>I applied for the position of UI/UX Designer in Delloite. I have a experience in using figma.</p>
+                    <p>
+                        I applied for the position of UI/UX Designer in Delloite. I have
+                        experience in using Figma.
+                    </p>
                 </li>
             </ul>
         </section>
@@ -158,4 +227,5 @@
         <p>&copy; 2024 Harsh.inc</p>
     </footer>
 </body>
+
 </html>
